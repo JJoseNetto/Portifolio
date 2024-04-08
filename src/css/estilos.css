@@ -135,6 +135,12 @@ body{
     justify-content: center;
 }
 
+.ativo:hover{
+        opacity: 1;
+        transform: translateY(-5px); /*movimento subir dos icons*/
+        cursor: pointer;
+}
+
 .projetos .projeto{
     max-width: 260px;
     max-height: 500px;
