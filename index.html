@@ -18,6 +18,7 @@
         <link rel="stylesheet" href="./src/css/reset.css">
         <link rel="stylesheet" href="./src/css/estilos.css">
         <link rel="stylesheet" href="./src/css/responsivo.css">
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
 </head>
 <body>
@@ -30,12 +31,13 @@
             <ul>
                 <li>
                     <a href="#projetos">Meus Projetos</a>
+                    <a href="https://wa.me/5533999481504">Contato</a>
                 </li>
             </ul>
         </nav>
     </header>
     <section class="home">
-        <div class="informacoes">
+        <div data-aos="fade-right" class="informacoes">
             <h1>Olá! Sou Jose Neto</h1>
             <p>Um desenvolvedor frontend em formação apaixonado por tecnologia.</p>
             <p>Estou sempre desafiando com novos projetos e buscando feedback na comunidade de programação, além de
@@ -67,18 +69,58 @@
                     </a>
                 </li>
             </ul>
+            <ul class="tecnologias">
+
+                <li>
+                    <a>
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original-wordmark.svg" />
+                    </a>
+                </li>
+
+                <li>
+                    <a>
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" />
+                    </a>
+                </li>
+
+                <li>
+                    <a>
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original-wordmark.svg" />
+                    </a>
+                </li>   
+
+                <li>
+                    <a>
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" />
+                    </a>
+                </li>
+                
+                <li>
+                    <a>
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" />
+                    </a>
+                </li>
+
+                <li>
+                    <a>
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original-wordmark.svg" />
+                    </a>
+                </li>
+
+            </ul>
         </div>
 
-        <div class="container-foto">
+        <div data-aos="flip-right" class="container-foto">
             <div class="foto sombra-interna">
                 <img src="./src/imagens/foto-perfil.png" alt="foto do portifólio do Neto">
             </div>
         </div>
     </section>
+    
     <section class="projetos" id="projetos">
         <h2 class="titulo">Meus projetos</h2>
 
-        <div class="container-projetos">
+        <div data-aos="zoom-out" class="container-projetos">
             <div class="projeto ativo">
                 <a href="https://jjosenetto.github.io/Ladinpage/" target="_blank">
                     <img src="./src/imagens/projeto-lading-page.png" alt="Projeto Landing page">
@@ -181,5 +223,9 @@
 
     <script src="./src/js/index.js"></script>
 
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>

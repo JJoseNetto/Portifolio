@@ -8,6 +8,7 @@
         Passo 1 - pegar o botão e esconder ele * 
 */
 
+
 const botaoMostrarProjetos = document.querySelector('.btn-mostrar-projetos');
 const projetosInativos = document.querySelectorAll('.projeto:not(.ativo)');
 

@@ -13,9 +13,9 @@ body{
 
 .cabecalho {
     display: flex;
-    justify-content: space-between;
     align-items: center;
     padding: 30px 15px;
+    justify-content: space-between;
 }
 
 .cabecalho .logo {
@@ -97,6 +97,26 @@ body{
     color: #9443d8;
     border: 1px solid #9443d8;
     transform: scale(1.1);
+}
+
+.home .tecnologias {
+    display: flex;
+    gap: 20px;
+}
+
+.home .tecnologias a img{
+    width: auto;
+    height: 50px;
+    padding: 10px;
+    text-align: center;
+    font-size: 26px;
+    transition: 0.3s;
+    
+}
+.home .tecnologias a img:hover{
+    opacity: 1;
+    transform: translateY(-5px); /*movimento subir dos icons*/
+    cursor: pointer;
 }
 
 .home .container-foto .foto{
